@@ -1,104 +1,161 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Portfolio site</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio site</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </head>
-    <body>
-	  
-        <div class="container">
-	  
-		<!--────────────────Header───────────────-->
-	<header>
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link active" href="#home">Home</a></li>
-			<li><a class="nav-link" href="#projects">Projects</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
-		 </ul>
-			
-			<div class="hamburger">
-				<div class="line1"></div>
-            <div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-	</header>
-	<main>
-		<!--─────────────────Home────────────────-->
-	  <div id="home">
-		 <div class="filter"></div>
-		 <section class="intro">
-		  <h3>Abhay Kumar Singh.<hr></h3>
-		  <p>Hello, i'm a Machine Learning and Web development enthusiast!</p>
-		  <p>I'm 3rd year computer science student at Lovely Professional University, jalandhar</p>
-		</section> 	  
-	  </div>  
-		
-	  <!--───────────────Projects───────────────-->
-	  <div id="projects"> 
-		 <h3>My Projects.<hr></h3>
-		  <p>Here are some of my projects, you may like.</p>
-		  <div class="work-box">
-		  <div class="work">
-		<!--───────────────card───────────────-->
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80">
-			    <a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div>
-            <div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div>
-            <div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div> 
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
-            </div> 	  
-		  </div>
-		  </div>
-	  </div>
-		 
-		<!--──────────────Contact────────────────-->
-	  <div id="contact">
-		  <!--────social media links─────-->
-		   <h3>Contact.<hr></h3>
-		   <p>Feel free to contact me on any of these handles.</p>
-		    <div class="social-media">
-			  <a href="mailto: 7ct0v759s@relay.firefox.com" target="_blank"><i class='far fa-envelope'></i></a>
-			  <a href="https://www.github.com/a8hay" target="_blank"><i class='fab fa-github'></i></a>
-			  <a href="https://www.linkedin.com/in/a8hay" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-			  <a href="https://www.hackerrank.com/a8hay" target="_blank"><i class="fab fa-hackerrank"></i></a>
-		    </div>
-		  </div>
+  <body>
+    <div class="container">
+      <!--────────────────Header───────────────-->
+      <header>
+        <nav>
+          <ul class="nav-bar">
+            <div class="bg"></div>
+            <li><a class="nav-link active" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
 
-	</main>
-	  <footer class="copyright">© 2020 
-		  <a href="https://repl.it/@lilykhan" target="_blank"> Abhay</a>
-     </footer>
-	  
-  </div>
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!--─────────────────Home────────────────-->
+        <div id="home">
+          <div class="filter"></div>
+          <section class="intro">
+            <h3>
+              Abhay Kumar Singh.
+              <hr />
+            </h3>
+            <p>Hello, i'm a Machine Learning and Web development enthusiast!</p>
+            <p>
+              I'm 3rd year computer science student at Lovely Professional
+              University, jalandhar
+            </p>
+          </section>
+        </div>
+
+        <!--───────────────Projects───────────────-->
+        <div id="projects">
+          <h3>
+            My Projects.
+            <hr />
+          </h3>
+          <p>Here are some of my projects, you may like.</p>
+          <div class="work-box">
+            <div class="work">
+              <!--───────────────card───────────────-->
+              <div class="card">
+                <img
+                  class="work-img"
+                  src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80"
+                />
+                <a href="" target="_blank">
+                  <!--Link to project-->
+                  <div class="work-content">
+                    Flappy Bird AI(Genetic Algorithm)
+                  </div></a
+                >
+              </div>
+              <div class="card">
+                <img
+                  class="work-img"
+                  src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80"
+                />
+                <a href="" target="_blank">
+                  <!--Link to project-->
+                  <div class="work-content">
+                    Todo App(vanilla javascript)
+                  </div></a
+                >
+              </div>
+              <div class="card">
+                <img
+                  class="work-img"
+                  src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                />
+                <a href="" target="_blank">
+                  <!--Link to project-->
+                  <div class="work-content">Real Time Digit Classifier.</div></a
+                >
+              </div>
+              <div class="card">
+                <img
+                  class="work-img"
+                  src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                />
+                <a href="" target="_blank">
+                  <!--Link to project-->
+                  <div class="work-content">Tap Music</div></a
+                >
+              </div>
+              <div class="card">
+                <img
+                  class="work-img"
+                  src="https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80"
+                />
+                <a href="" target="_blank">
+                  <!--Link to project-->
+                  <div class="work-content">
+                    Pathin finding algo simulation.
+                  </div></a
+                >
+              </div>
+              <div class="card">
+                <img
+                  class="work-img"
+                  src="https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                />
+                <a href="" target="_blank">
+                  <!--Link to project-->
+                  <div class="work-content">Cat vs Dog web app(Flask)</div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--──────────────Contact────────────────-->
+        <div id="contact">
+          <!--────social media links─────-->
+          <h3>
+            Contact.
+            <hr />
+          </h3>
+          <p>Feel free to contact me on any of these handles.</p>
+          <div class="social-media">
+            <a href="mailto: 7ct0v759s@relay.firefox.com" target="_blank"
+              ><i class="far fa-envelope"></i
+            ></a>
+            <a href="https://www.github.com/a8hay" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/a8hay" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.hackerrank.com/a8hay" target="_blank"
+              ><i class="fab fa-hackerrank"></i
+            ></a>
+          </div>
+        </div>
+      </main>
+      <footer class="copyright">
+        © 2020
+        <a href="https://repl.it/@lilykhan" target="_blank"> Abhay</a>
+      </footer>
+    </div>
   </body>
 </html>
